@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.author           = { 'liyaoyao903' => '535814116@qq.com' }
   s.source       = { :git => 'https://github.com/n1sunjianfei/libTest.git'}
 
-#s.ios.deployment_target = '8.0'
-#s.platform     = :ios, "8.0"
+  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, "8.0"
   s.vendored_frameworks = ['lib/*.framework']
 #s.source_files = 'lib/*.framework'
 

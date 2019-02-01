@@ -1,0 +1,6 @@
+framework module EsbuilderMpLibsBase {
+  umbrella header "EsbuilderMpLibsBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

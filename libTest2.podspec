@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.platform     = :ios, "8.0"
   s.vendored_frameworks = ['lib/1.0.0/*.framework']
-#s.source_files = 'lib/*.framework'
+  #s.source_files = 'lib/*.framework'
 
 end
